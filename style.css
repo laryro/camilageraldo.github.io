@@ -21,6 +21,13 @@ nav {
 
 }
 
+#sobre h4 {
+  color: #ffff;
+  font-size: 18px;
+  position: relative;
+  bottom: 311px;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
 }
@@ -39,6 +46,17 @@ nav {
   z-index: 9999999;
   background:#29353B;
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.camilaf {
+      width: 33%;
+    height: auto;
+    display: block;
+}
+
+#sobre {
+  padding: 27px 0;
+  background-color: #08415d;
 }
 
 .logof {
@@ -163,6 +181,37 @@ nav {
     padding:1em;
   }
   
+  .orient {
+    position: relative;
+    bottom: 291px;
+    color: #fff;
+  }
+
+  .credito {
+    bottom: 286px;
+    font-weight: bold;
+    color: #ffff;
+    position: relative;
+  }
+  .agr {
+    color: #ffff;
+    position: relative;
+    bottom: 298px;
+    font-size: 13px;
+  }
+
+  .agr2{
+    color: #ffff;
+    font-weight: bold;
+    position: relative;
+    bottom: 450px;
+  }
+  .agr1 {
+    color: #ffff;
+    font-weight: bold;
+    position: relative;
+    bottom: 490px;
+  }
   .navul-hide {
     display:inline;
   }
@@ -357,9 +406,7 @@ button:hover {
 
 .content1 {
   padding-top: 20px;
-      font-family: 'Domine';
-      font-size: 18px;
-
+  font-size: 15px;
 }
 
 .canas {
@@ -787,8 +834,6 @@ button:hover {
       line-height: 1;
 }
 
-#rpesgoto {}
-
 .box-content3 {
   position: absolute;
   background-color: #29353B;
@@ -807,17 +852,6 @@ button:hover {
   font-weight: bold;
   color: #ffff;
   left: 43%;
-}
-
-.lagoinha4 {
-  border-radius: 15px;
-    border: 2px solid #0000;
-    position: absolute;
-    top: 43px;
-    background-color: #00000075;
-    font-weight: bold;
-    color: #ffff;
-    left: 52%;
 }
 
 .ingleses4 {
