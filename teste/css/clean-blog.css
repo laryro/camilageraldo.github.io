@@ -13,6 +13,7 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'Domine', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p a {
@@ -153,19 +154,19 @@ img::-moz-selection {
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #08415C;
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #207CA8;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #fff;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #207CA8;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -437,6 +438,9 @@ header.masthead {
 header.masthead .intro {
   margin-top: 200px;
   position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #000;
+  font-weight: 500;
 }
 
 header.masthead .logo-impropria-container .logo-impropria {
@@ -447,6 +451,10 @@ header.masthead .logo-impropria-container .logo-impropria {
 header.masthead .cenario {
   font-size: 50px;
   font-weight: normal;
+}
+
+header.masthead .card {
+  background-color: transparent;
 }
 
 header.masthead .intro.container {
