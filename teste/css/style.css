@@ -1,6 +1,16 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.1 (https://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
+ */
 
-body {
-  background-image: url('img/intro2.png');
+.infografico-container {
+  position: relative;
+  /*For Larger Screens!*/
+}
+
+.infografico-container body {
+  background-image: url("img/intro2.png");
   height: -webkit-fill-available;
   max-height: 100%;
   background-size: cover;
@@ -8,67 +18,63 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-section {
-  padding: 80px 0;
-}
-
-nav {
+.infografico-container nav {
   background-color: #29353B;
   padding: 0.5rem, 0;
   color: #ffff;
   font-size: 20px;
   font-weight: 200;
-
 }
 
-#sobre h4 {
+.infografico-container #sobre h4 {
   color: #ffff;
   font-size: 18px;
   position: relative;
   bottom: 311px;
 }
 
-h1, h2, h3, h4 {
+.infografico-container h1, .infografico-container h2, .infografico-container h3, .infografico-container h4 {
   font-family: 'Raleway', sans-serif;
 }
 
-nav ul li {
+.infografico-container nav {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9999999;
+  background: #29353B;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.infografico-container nav ul li {
   display: inline-block;
   padding: 0 3em;
   line-height: 3em;
 }
 
-nav {
-  position: fixed;
-  margin:0;
-  padding:0;
-  width:100%;
-  z-index: 9999999;
-  background:#29353B;
-  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+.infografico-container .camilaf {
+  width: 33%;
+  height: auto;
+  display: block;
 }
 
-.camilaf {
-      width: 33%;
-    height: auto;
-    display: block;
-}
-
-#sobre {
+.infografico-container #sobre {
   padding: 27px 0;
   background-color: #08415d;
 }
 
-.logof {
-      position: absolute;
-    bottom: -25px;
+.infografico-container .logof {
+  position: absolute;
+  bottom: -25px;
 }
 
-.sobrenav {
+.infografico-container .sobrenav {
   padding-left: 35px;
 }
 
-.impropria {
+.infografico-container .impropria {
   position: relative;
   max-width: 100%;
   width: 76%;
@@ -76,161 +82,152 @@ nav {
   padding-top: 4.7rem;
 }
 
-.nav-title-div {
-  border:2px solid white;
+.infografico-container .nav-title-div {
+  border: 2px solid white;
 }
 
-.nav-head {
-  display:inline-block;
-  font-size:30px;
+.infografico-container .nav-head {
+  display: inline-block;
+  font-size: 30px;
   color: #ccc;
   padding: 0 0 0 10px;
 }
 
-.navul {
-  margin:0;
-  padding:0;
+.infografico-container .navul {
+  margin: 0;
+  padding: 0;
 }
 
-.navul-hide {
-  display:none;
+.infografico-container .navul-hide {
+  display: none;
 }
 
-.navli {
-  padding:0.5em;
-  display:block;
-  font-size:20px;
+.infografico-container .navli {
+  padding: 0.5em;
+  display: block;
+  font-size: 20px;
   font-weight: 200;
-  border-left:2px solid #ccc;
-  border-right:2px solid #ccc;
-  border-bottom:2px solid #ccc;
-}
-.nava {
-  text-decoration:none;
-  color:#ccc;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
-.nava:visited {
-  color:#ccc;
+.infografico-container .nava {
+  text-decoration: none;
+  color: #ccc;
 }
 
-.navul2 {
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  background:#29353B;
+.infografico-container .nava:visited {
+  color: #ccc;
+}
+
+.infografico-container .navul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #29353B;
   width: 25%;
 }
 
-.navul2-hide{
-  display:none;
+.infografico-container .navul2-hide {
+  display: none;
 }
 
-.navli2 {
-  font-size:18px;
-  padding:0.5em;
-  padding-left:3em;
+.infografico-container .navli2 {
+  font-size: 18px;
+  padding: 0.5em;
+  padding-left: 3em;
   border-left: 2px solid white;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
 }
 
-.nava2 {
-  color:#ccc;
-  text-decoration:none;
+.infografico-container .nava2 {
+  color: #ccc;
+  text-decoration: none;
 }
 
-.nava2:visited {
-  color:#ccc;
+.infografico-container .nava2:visited {
+  color: #ccc;
 }
 
-
-/*For Larger Screens!*/
-
-@media(min-width: 600px) {
-
-  .nav-title-div {
-    display:inline-block;
+@media (min-width: 600px) {
+  .infografico-container .nav-title-div {
+    display: inline-block;
     border: none;
     display: none;
   }
-
-  .nav-title-div:hover {
-    background:#29353B;
+  .infografico-container .nav-title-div:hover {
+    background: #29353B;
   }
-
-  .nav-head {
-    display:inline-block;
+  .infografico-container .nav-head {
+    display: inline-block;
   }
-
-  .navul {
-    display:inline;
-    padding:1em;
+  .infografico-container .navul {
+    display: inline;
+    padding: 1em;
   }
-
-  .orient {
+  .infografico-container .orient {
     position: relative;
     bottom: 291px;
     color: #fff;
   }
-
-  .credito {
+  .infografico-container .credito {
     bottom: 286px;
     font-weight: bold;
     color: #ffff;
     position: relative;
   }
-  .agr {
+  .infografico-container .agr {
     color: #ffff;
     position: relative;
     bottom: 298px;
     font-size: 13px;
   }
-
-  .agr2{
+  .infografico-container .agr2 {
     color: #ffff;
     font-weight: bold;
     position: relative;
     bottom: 450px;
   }
-  .agr1 {
+  .infografico-container .agr1 {
     color: #ffff;
     font-weight: bold;
     position: relative;
     bottom: 490px;
   }
-  .navul-hide {
-    display:inline;
+  .infografico-container .navul-hide {
+    display: inline;
   }
-
-  .navli {
-    display:inline-block;
-    border:none;
-    padding:5px 15px;
+  .infografico-container .navli {
+    display: inline-block;
+    border: none;
+    padding: 5px 15px;
   }
-
-  .navli:nth-child(2):hover + .navul2, .navul2:hover {
-    position:absolute;
-    display:block;
-    left:37%;
-    top:70px;
+  .infografico-container .navli:nth-child(2):hover + .navul2 {
+    position: absolute;
+    display: block;
+    left: 37%;
+    top: 70px;
   }
-
-
-
-  .navli2 {
-    display:block;
-    width:100%;
+  .infografico-container .navul2:hover {
+    position: absolute;
+    display: block;
+    left: 37%;
+    top: 70px;
+  }
+  .infografico-container .navli2 {
+    display: block;
+    width: 100%;
     border: none;
   }
-
 }
 
-#inicial {
+.infografico-container #inicial {
   height: -webkit-fill-available;
 }
 
-.box-center {
+.infografico-container .box-center {
   position: absolute;
   background-color: #ffffff5c;
   height: 295px;
@@ -238,13 +235,13 @@ nav {
   top: 37%;
 }
 
-@media(max-width: 600px) {
-  .navul2 {
+@media (max-width: 600px) {
+  .infografico-container .navul2 {
     width: initial;
   }
 }
 
-.horizontal-line {
+.infografico-container .horizontal-line {
   border-top: 0.08rem solid #000000;
   top: 96px;
   width: 83%;
@@ -252,7 +249,7 @@ nav {
   left: 15px;
 }
 
-.horizontal-line2 {
+.infografico-container .horizontal-line2 {
   border-top: 0.08rem solid #000000;
   top: -6px;
   width: 83%;
@@ -260,12 +257,12 @@ nav {
   left: 15px;
 }
 
-#inicial h4 {
+.infografico-container #inicial h4 {
   font-size: 29px;
   padding-left: 50px;
 }
 
-#cenario-coleta {
+.infografico-container #cenario-coleta {
   padding-bottom: 215px;
   text-align: left;
   padding-left: 12px;
@@ -273,121 +270,131 @@ nav {
   line-height: 1;
 }
 
-#cenario-coleta h2 {
+.infografico-container #cenario-coleta h2 {
   font-size: 44px;
 }
 
-.bold {
+.infografico-container .bold {
   font-weight: bold;
 }
 
-.content {
+.infografico-container .content {
   padding-top: 6%;
   line-height: 1.5;
   font-weight: bold;
   font-size: 14px;
 }
 
-#infografico {
+.infografico-container .infografico-content {
   position: relative;
-  background-color: #08415C;
   color: #ffff;
-  padding-top: 120px;
 }
-.imgmap1 {
+
+.infografico-container .imgmap1 {
   height: auto;
   max-width: 100%;
 }
 
-.box-content {
-  position: relative;
+.infografico-container .box-content,
+.infografico-container .box-content2,
+.infografico-container .box-content3,
+.infografico-container .box-content4 {
+  position: absolute;
   background-color: #29353B;
-  max-width: 100%;
-  border-radius: 43px;
-  top: -137%;
-  padding: 19px 0 9px 8px;
+  width: 240px;
+  border-radius: 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  right: 0;
+  font-size: 14px;
 }
 
-.box-buttons {
-  color: #fff;
-      overflow: hidden;
-      position: absolute;
-      background-color: #29353B;
-      width: 270px;
-      z-index: 999;
-      line-height: 1;
-      padding: 21px;
-      padding-left: 22px;
-      border-radius: 43px;
-      padding-bottom: 10px;
-      margin-top: 33.5rem;
-
+.infografico-container .box-content .contenthiden,
+.infografico-container .box-content2 .contenthiden,
+.infografico-container .box-content3 .contenthiden,
+.infografico-container .box-content4 .contenthiden {
+  padding: 15px;
 }
 
-.btn-slider{
+.infografico-container .box-buttons {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: -15px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 280px;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.infografico-container .box-buttons p {
+  margin: 15px 0;
+}
+
+.infografico-container .box-buttons a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.infografico-container .box-buttons a:hover {
+  color: #08415c;
+}
+
+.infografico-container .btn-slider {
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.btn-slider:hover {
-  cursor: pointer;
-}
-
-.btn-slider:visited {
-  font-weight: bold;
-}
-.btn-slider:active {
+.infografico-container .btn-slider.active-map {
   font-weight: bold;
 }
 
-button {
+.infografico-container button {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-button:hover {
+.infografico-container button:hover {
   background-color: #3B3A29;
 }
 
-
-#pages p {
-  font-size: 0.9rem;
-  margin-right: 10px;
-}
-
-
-.active {
+.infografico-container .active {
   font-weight: bold;
 }
-.contenthiden {
+
+.infografico-container .contenthiden {
   display: none;
 }
 
-#pages{
+.infografico-container #pages {
   position: relative;
-  overflow-x: hidden;
-  white-space: nowrap;
   width: 100%;
 }
 
-#pages h2 {
+.infografico-container #pages h2 {
   font-size: 21px;
 }
 
-
-.title-btn {
+.infografico-container .title-btn {
   font-weight: bold;
 }
 
-#mapaum {
+.infografico-container .mapa-container {
   position: relative;
   padding-top: 25px;
 }
 
-.content1 {
+.infografico-container .content1 {
   padding-top: 20px;
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
-.canas {
+.infografico-container .canas {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -398,7 +405,7 @@ button:hover {
   left: 45%;
 }
 
-.jurere {
+.infografico-container .jurere {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -410,7 +417,7 @@ button:hover {
   line-height: 1;
 }
 
-.stoantonio {
+.infografico-container .stoantonio {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -422,7 +429,7 @@ button:hover {
   line-height: 1;
 }
 
-.montecristo {
+.infografico-container .montecristo {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -434,7 +441,7 @@ button:hover {
   line-height: 1;
 }
 
-.continente {
+.infografico-container .continente {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -447,7 +454,7 @@ button:hover {
   line-height: 1;
 }
 
-.centro {
+.infografico-container .centro {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -460,7 +467,7 @@ button:hover {
   line-height: 1;
 }
 
-.campeche {
+.infografico-container .campeche {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -473,7 +480,7 @@ button:hover {
   line-height: 1;
 }
 
-.costa {
+.infografico-container .costa {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -486,22 +493,11 @@ button:hover {
   line-height: 1;
 }
 
-
-#solid {
+.infografico-container #solid, .infografico-container #chemistry, .infografico-container #cheemistry, .infografico-container #chhemistry {
   display: none;
 }
 
-#chemistry {
-  display: none;
-}
-#cheemistry {
-  display: none;
-}
-#chhemistry {
-  display: none;
-}
-
-.etecanas {
+.infografico-container .etecanas {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -513,7 +509,7 @@ button:hover {
   left: 40%;
 }
 
-.etebrava {
+.infografico-container .etebrava {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -525,20 +521,20 @@ button:hover {
   line-height: 1;
 }
 
-.eteingleses {
+.infografico-container .eteingleses {
   border-radius: 46px;
-      border: 2px solid #0000;
-      position: absolute;
-      background-color: #00000075;
-      top: 122px;
-      font-weight: bold;
-      color: #ffff;
-      display: block;
-      right: 40%;
-      line-height: 1;
+  border: 2px solid #0000;
+  position: absolute;
+  background-color: #00000075;
+  top: 122px;
+  font-weight: bold;
+  color: #ffff;
+  display: block;
+  right: 40%;
+  line-height: 1;
 }
 
-.eteconceicao {
+.infografico-container .eteconceicao {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -551,16 +547,7 @@ button:hover {
   line-height: 1;
 }
 
-.box-content2 {
-  position: relative;
-  background-color: #29353B;
-  max-width: 100%;
-  border-radius: 43px;
-  top: -311%;
-  padding: 19px 0 9px 8px;
-}
-
-.etevilauniao {
+.infografico-container .etevilauniao {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -572,7 +559,7 @@ button:hover {
   line-height: 1;
 }
 
-.eteinsular {
+.infografico-container .eteinsular {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -585,7 +572,7 @@ button:hover {
   line-height: 1;
 }
 
-.etesacogrande {
+.infografico-container .etesacogrande {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -597,7 +584,7 @@ button:hover {
   line-height: 1;
 }
 
-.etejurere {
+.infografico-container .etejurere {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -609,7 +596,7 @@ button:hover {
   line-height: 1;
 }
 
-.etepotecas {
+.infografico-container .etepotecas {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -621,7 +608,7 @@ button:hover {
   line-height: 1;
 }
 
-.etebarra {
+.infografico-container .etebarra {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -634,7 +621,7 @@ button:hover {
   line-height: 1;
 }
 
-.etebase {
+.infografico-container .etebase {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -647,7 +634,7 @@ button:hover {
   line-height: 1;
 }
 
-.eteparq {
+.infografico-container .eteparq {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -659,18 +646,18 @@ button:hover {
   line-height: 1;
 }
 
-.pontacanas {
+.infografico-container .pontacanas {
   border-radius: 15px;
-      border: 2px solid #0000;
-      position: absolute;
-      top: 69px;
-      background-color: #00000075;
-      font-weight: bold;
-      color: #ffff;
-      left: 42%;
+  border: 2px solid #0000;
+  position: absolute;
+  top: 69px;
+  background-color: #00000075;
+  font-weight: bold;
+  color: #ffff;
+  left: 42%;
 }
 
-.estreito3 {
+.infografico-container .estreito3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -681,18 +668,18 @@ button:hover {
   left: 31%;
 }
 
-.campeche3 {
+.infografico-container .campeche3 {
   border-radius: 15px;
-      border: 2px solid #0000;
-      position: absolute;
-      bottom: 423px;
-      background-color: #00000075;
-      font-weight: bold;
-      color: #ffff;
-      left: 42%;
+  border: 2px solid #0000;
+  position: absolute;
+  bottom: 423px;
+  background-color: #00000075;
+  font-weight: bold;
+  color: #ffff;
+  left: 42%;
 }
 
-.mendes3 {
+.infografico-container .mendes3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -700,10 +687,10 @@ button:hover {
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 35%
+  left: 35%;
 }
 
-.ribeirao3 {
+.infografico-container .ribeirao3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -714,8 +701,7 @@ button:hover {
   left: 27%;
 }
 
-
-.lagoa3 {
+.infografico-container .lagoa3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -726,7 +712,7 @@ button:hover {
   left: 45%;
 }
 
-.praiabrava {
+.infografico-container .praiabrava {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -737,9 +723,9 @@ button:hover {
   display: block;
   top: 34px;
   right: 43%;
-
 }
-.canas3 {
+
+.infografico-container .canas3 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -751,7 +737,7 @@ button:hover {
   line-height: 1;
 }
 
-.jurere3 {
+.infografico-container .jurere3 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -763,19 +749,20 @@ button:hover {
   line-height: 1;
 }
 
-.bomjesus {
+.infografico-container .bomjesus {
   border-radius: 46px;
-      border: 2px solid #0000;
-      position: absolute;
-      background-color: #00000075;
-      top: 111px;
-      display: block;
-      font-weight: bold;
-      color: #ffff;
-      left: 50%;
-      line-height: 1;
+  border: 2px solid #0000;
+  position: absolute;
+  background-color: #00000075;
+  top: 111px;
+  display: block;
+  font-weight: bold;
+  color: #ffff;
+  left: 50%;
+  line-height: 1;
 }
-.ingleses3 {
+
+.infografico-container .ingleses3 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -788,40 +775,31 @@ button:hover {
   line-height: 1;
 }
 
-.barra3 {
+.infografico-container .barra3 {
   border-radius: 15px;
-    border: 2px solid #0000;
-    position: absolute;
-    top: 400px;
-    background-color: #00000075;
-    font-weight: bold;
-    color: #ffff;
-    left: 52%;
-}
-
-.costa3 {
-  border-radius: 46px;
-      border: 2px solid #0000;
-      position: absolute;
-      background-color: #00000075;
-      top: 312px;
-      display: block;
-      font-weight: bold;
-      color: #ffff;
-      left: 49%;
-      line-height: 1;
-}
-
-.box-content3 {
+  border: 2px solid #0000;
   position: absolute;
-  background-color: #29353B;
-  max-width: 100%;
-  border-radius: 43px;
-  top: 357px;
-  padding: 19px 81px 9px 24px;
+  top: 400px;
+  background-color: #00000075;
+  font-weight: bold;
+  color: #ffff;
+  left: 52%;
 }
 
-.canas4 {
+.infografico-container .costa3 {
+  border-radius: 46px;
+  border: 2px solid #0000;
+  position: absolute;
+  background-color: #00000075;
+  top: 312px;
+  display: block;
+  font-weight: bold;
+  color: #ffff;
+  left: 49%;
+  line-height: 1;
+}
+
+.infografico-container .canas4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -832,7 +810,7 @@ button:hover {
   left: 43%;
 }
 
-.ingleses4 {
+.infografico-container .ingleses4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -843,7 +821,7 @@ button:hover {
   left: 54%;
 }
 
-.jurere4 {
+.infografico-container .jurere4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -854,7 +832,7 @@ button:hover {
   left: 42%;
 }
 
-.sacogrande4 {
+.infografico-container .sacogrande4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
@@ -865,31 +843,31 @@ button:hover {
   left: 41%;
 }
 
-.beiramar4 {
+.infografico-container .beiramar4 {
   border-radius: 46px;
-      border: 2px solid #0000;
-      position: absolute;
-      background-color: #00000075;
-      top: 390px;
-      font-weight: bold;
-      color: #ffff;
-      left: 33%;
-      line-height: 1;
+  border: 2px solid #0000;
+  position: absolute;
+  background-color: #00000075;
+  top: 390px;
+  font-weight: bold;
+  color: #ffff;
+  left: 33%;
+  line-height: 1;
 }
 
-.pico4 {
+.infografico-container .pico4 {
   border-radius: 46px;
-      border: 2px solid #0000;
-      position: absolute;
-      background-color: #00000075;
-      top: 441px;
-      font-weight: bold;
-      color: #ffff;
-      left: 35%;
-      line-height: 1;
+  border: 2px solid #0000;
+  position: absolute;
+  background-color: #00000075;
+  top: 441px;
+  font-weight: bold;
+  color: #ffff;
+  left: 35%;
+  line-height: 1;
 }
 
-.continente4 {
+.infografico-container .continente4 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -902,7 +880,7 @@ button:hover {
   line-height: 1;
 }
 
-.ita4 {
+.infografico-container .ita4 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -915,7 +893,7 @@ button:hover {
   line-height: 1;
 }
 
-.campeche3 {
+.infografico-container .campeche3 {
   border-radius: 46px;
   border: 2px solid #0000;
   position: absolute;
@@ -928,13 +906,6 @@ button:hover {
   line-height: 1;
 }
 
-.box-content4 {
-  position: absolute;
-      background-color: #29353B;
-      max-width: 100%;
-      border-radius: 43px;
-      top: 291px;
-      padding: 19px 0 9px 8px;
+.infografico-container .sobre-infografico {
+  padding-top: 200px;
 }
-
-

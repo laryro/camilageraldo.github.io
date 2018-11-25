@@ -134,30 +134,30 @@ nav {
     border: none;
     display: none;
   }
-  
+
   .nav-title-div:hover {
     background:#29353B;
   }
-  
+
   .nav-head {
     display:inline-block;
   }
-  
+
   .navul {
     display:inline;
     padding:0em;
   }
-  
+
   .navul-hide {
     display:inline;
   }
-  
+
   .navli {
     display:inline-block;
     border:none;
     padding:5px 15px;
   }
-  
+
   .navli:nth-child(2):hover + .navul2, .navul2:hover {
     position:absolute;
     display:block;
@@ -165,14 +165,14 @@ nav {
     top:70px;
   }
 
-  
-  
+
+
   .navli2 {
     display:block;
     width:100%;
     border: none;
   }
-  
+
   .navli2:hover {
     background:#555353;
   }
@@ -404,8 +404,6 @@ section{
 }
 
 
-
-@charset "UTF-8";
 .carousel {
   position: relative;
   width: 100%;
@@ -592,7 +590,7 @@ img {
   .prep12 {
     font-family: 'Domine', serif;
     font-size: 1rem;
-    
+
   }
 
   .prep13 {
@@ -622,7 +620,6 @@ img {
      padding: 18px 0;;
   }
 
-  @charset "UTF-8";
 .carousell {
   position: relative;
   width: 100%;
@@ -729,8 +726,6 @@ img {
   padding-bottom: 50px;
 }
 
-
-  @charset "UTF-8";
 .carouselll {
   position: relative;
   width: 100%;
@@ -795,7 +790,7 @@ img {
       top: 6%;
       right: 17%;
   }
-}
+
 .carouselll_nav.carouselll_nav--next:before {
   content: "";
   display: block;
