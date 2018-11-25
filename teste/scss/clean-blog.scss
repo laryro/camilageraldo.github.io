@@ -63,3 +63,34 @@ header.masthead {
         }
     }
 }
+.submenu {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: #08415C;
+    padding: 10px;
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    li {
+        + li {
+            margin-top: 10px;
+        }
+    }
+}
+
+.has-submenu {
+    position: relative;
+    &:hover {
+        .submenu {
+            display: block;
+        }
+    }
+}

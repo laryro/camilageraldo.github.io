@@ -137,6 +137,7 @@ main .conteudo-reportagem {
   width: 100%;
   left: 0;
   background-color: #00000050;
+  padding: 20px;
 }
 
 .carousel-caption p {

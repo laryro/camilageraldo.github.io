@@ -473,3 +473,33 @@ header.masthead .intro.container {
     margin: -40px 0;
   }
 }
+
+.submenu {
+  display: none;
+  position: absolute;
+  width: 300px;
+  background-color: #08415C;
+  padding: 10px;
+  font-size: 14px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.submenu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu li + li {
+  margin-top: 10px;
+}
+
+.has-submenu {
+  position: relative;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
