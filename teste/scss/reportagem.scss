@@ -1,0 +1,33 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+
+body {
+    background-color: #fff;
+}
+header.masthead {
+    background-position: top center;
+    padding: 150px 0 90px;
+
+    .site-heading {
+        padding: 0;
+    }
+}
+main {
+    color: $gray-900;
+    padding-bottom: 50px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $blue_tcc;
+    }
+
+    .conteudo-reportagem {
+        text-align: justify;
+        padding: 0 50px;
+    }
+}
