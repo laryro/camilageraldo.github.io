@@ -150,3 +150,7 @@ main .conteudo-reportagem {
 .proxima a {
   text-decoration: none;
 }
+
+.w-80 {
+  max-width: 80%;
+}
