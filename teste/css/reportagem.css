@@ -142,3 +142,11 @@ main .conteudo-reportagem {
 .carousel-caption p {
   margin: 0;
 }
+
+.proxima {
+  text-align: right;
+}
+
+.proxima a {
+  text-decoration: none;
+}
