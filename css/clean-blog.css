@@ -503,3 +503,35 @@ header.masthead .intro.container {
 .has-submenu:hover .submenu {
   display: block;
 }
+
+.legenda-container {
+  background-color: rgba(255, 255, 255, 0.664);
+  border-radius: 15px;
+  position: absolute;
+  padding: 15px;
+  color: #000;
+  font-size: 13px;
+  width: 280px;
+  right: 0;
+  bottom: 0;
+}
+
+.legenda-container p {
+  margin: 0 0 5px;
+}
+
+.legenda-container .legendas {
+  margin-bottom: 0;
+}
+
+.legenda-container .legendas .legenda-amarela {
+  margin-bottom: 5px;
+}
+
+.legenda-container .legendas .legenda-amarela .fa {
+  color: #FEC500;
+}
+
+.legenda-container .legendas .legenda-roxa .fa {
+  color: #7E2DF6;
+}

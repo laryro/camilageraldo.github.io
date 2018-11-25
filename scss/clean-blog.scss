@@ -94,3 +94,36 @@ header.masthead {
         }
     }
 }
+
+.legenda-container {
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 15px;
+    position: absolute;
+    padding: 15px;
+    color: #000;
+    font-size: 13px;
+    width: 280px;
+    right: 0;
+    bottom: 0;
+
+    p {
+        margin: 0 0 5px;
+    }
+
+    .legendas {
+        margin-bottom: 0;
+
+        .legenda-amarela {
+            margin-bottom: 5px;
+            .fa{
+                color: #FEC500;
+            }
+        }
+        .legenda-roxa {
+            .fa{
+                color: #7E2DF6;
+            }
+
+        }
+    }
+}
