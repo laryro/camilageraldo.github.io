@@ -59,10 +59,16 @@ main {
 
 .proxima,
 .anterior {
-    text-align: right;
     a {
         text-decoration: none;
     }
+}
+.proxima {
+    text-align: right;
+
+}
+.anterior {
+    text-align: left;
 }
 
 .w-80 {
