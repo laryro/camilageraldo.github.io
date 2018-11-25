@@ -144,11 +144,13 @@ main .conteudo-reportagem {
   margin: 0;
 }
 
-.proxima {
+.proxima,
+.anterior {
   text-align: right;
 }
 
-.proxima a {
+.proxima a,
+.anterior a {
   text-decoration: none;
 }
 
