@@ -126,7 +126,6 @@ main h3 {
 }
 
 main .conteudo-reportagem {
-  text-align: justify;
   padding: 0 50px;
   max-width: 1000px;
   margin: 0 auto;
@@ -142,6 +141,11 @@ main .conteudo-reportagem {
 
 .carousel-caption p {
   margin: 0;
+}
+
+.proxima,
+.anterior {
+  font-size: 22px;
 }
 
 .proxima a,

@@ -402,6 +402,12 @@
   text-align: justify;
 }
 
+.infografico-container .content1.linkacesse {
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+}
+
 .infografico-container .canas {
   border-radius: 15px;
   border: 2px solid #0000;
