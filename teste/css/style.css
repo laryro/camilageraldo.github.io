@@ -318,6 +318,13 @@
   padding: 15px;
 }
 
+.infografico-container .box-content .contenthiden p,
+.infografico-container .box-content2 .contenthiden p,
+.infografico-container .box-content3 .contenthiden p,
+.infografico-container .box-content4 .contenthiden p {
+  margin-bottom: 0;
+}
+
 .infografico-container .box-buttons {
   position: absolute;
   top: 0;
@@ -392,6 +399,7 @@
   padding-top: 20px;
   font-size: 14px;
   line-height: 1.8;
+  text-align: justify;
 }
 
 .infografico-container .canas {
@@ -402,7 +410,7 @@
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 45%;
+  left: 54%;
 }
 
 .infografico-container .jurere {
@@ -450,7 +458,7 @@
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 32%;
+  left: 24%;
   line-height: 1;
 }
 
@@ -463,7 +471,7 @@
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 40%;
+  left: 47%;
   line-height: 1;
 }
 
@@ -476,7 +484,7 @@
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 43%;
+  left: 34%;
   line-height: 1;
 }
 
@@ -501,12 +509,12 @@
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 98px;
+  top: 108px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
   display: block;
-  left: 40%;
+  left: 41%;
 }
 
 .infografico-container .etebrava {
@@ -517,7 +525,7 @@
   top: 71px;
   font-weight: bold;
   color: #ffff;
-  right: 40%;
+  right: 33%;
   line-height: 1;
 }
 
@@ -526,11 +534,11 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 122px;
+  top: 112px;
   font-weight: bold;
   color: #ffff;
   display: block;
-  right: 40%;
+  right: 17%;
   line-height: 1;
 }
 
@@ -542,7 +550,7 @@
   top: 301px;
   font-weight: bold;
   color: #ffff;
-  right: 45%;
+  right: 35%;
   padding: 5px 9px;
   line-height: 1;
 }
@@ -552,10 +560,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 487px;
+  top: 504px;
   font-weight: bold;
   color: #ffff;
-  right: 39%;
+  right: 57%;
   line-height: 1;
 }
 
@@ -564,11 +572,11 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 443px;
+  top: 423px;
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 38%;
+  left: 33%;
   line-height: 1;
 }
 
@@ -601,10 +609,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 413px;
+  top: 403px;
   font-weight: bold;
   color: #ffff;
-  left: 29%;
+  left: 13%;
   line-height: 1;
 }
 
@@ -613,11 +621,11 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 453px;
+  top: 463px;
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 46%;
+  left: 33%;
   line-height: 1;
 }
 
@@ -626,7 +634,7 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 529px;
+  top: 549px;
   display: block;
   font-weight: bold;
   color: #ffff;
@@ -639,10 +647,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 397px;
+  top: 367px;
   font-weight: bold;
   color: #ffff;
-  right: 54%;
+  right: 57%;
   line-height: 1;
 }
 
@@ -650,22 +658,22 @@
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 69px;
+  top: 79px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 42%;
+  left: 45%;
 }
 
 .infografico-container .estreito3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 401px;
+  top: 381px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 31%;
+  left: 11%;
 }
 
 .infografico-container .campeche3 {
@@ -683,22 +691,22 @@
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  bottom: 549px;
+  bottom: 408px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 35%;
+  left: 15%;
 }
 
 .infografico-container .ribeirao3 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  bottom: 361px;
+  bottom: 201px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 27%;
+  left: 34%;
 }
 
 .infografico-container .lagoa3 {
@@ -709,7 +717,7 @@
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 45%;
+  left: 35%;
 }
 
 .infografico-container .praiabrava {
@@ -721,8 +729,8 @@
   color: #ffff;
   margin-right: -9px;
   display: block;
-  top: 34px;
-  right: 43%;
+  top: 64px;
+  right: 20%;
 }
 
 .infografico-container .canas3 {
@@ -730,7 +738,7 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 122px;
+  top: 142px;
   font-weight: bold;
   color: #ffff;
   left: 41%;
@@ -742,10 +750,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 154px;
+  top: 174px;
   font-weight: bold;
   color: #ffff;
-  left: 41%;
+  left: 39%;
   line-height: 1;
 }
 
@@ -754,11 +762,11 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 111px;
+  top: 115px;
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 50%;
+  left: 37%;
   line-height: 1;
 }
 
@@ -771,7 +779,7 @@
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 56%;
+  left: 66%;
   line-height: 1;
 }
 
@@ -807,36 +815,36 @@
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 43%;
+  left: 39%;
 }
 
 .infografico-container .ingleses4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 126px;
+  top: 96px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 54%;
+  left: 60%;
 }
 
 .infografico-container .jurere4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 170px;
+  top: 154px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
-  left: 42%;
+  left: 36%;
 }
 
 .infografico-container .sacogrande4 {
   border-radius: 15px;
   border: 2px solid #0000;
   position: absolute;
-  top: 335px;
+  top: 295px;
   background-color: #00000075;
   font-weight: bold;
   color: #ffff;
@@ -848,10 +856,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 390px;
+  top: 380px;
   font-weight: bold;
   color: #ffff;
-  left: 33%;
+  left: 26%;
   line-height: 1;
 }
 
@@ -860,10 +868,10 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 441px;
+  top: 501px;
   font-weight: bold;
   color: #ffff;
-  left: 35%;
+  left: 25%;
   line-height: 1;
 }
 
@@ -876,7 +884,7 @@
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 29%;
+  left: 17%;
   line-height: 1;
 }
 
@@ -885,7 +893,7 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  top: 397px;
+  top: 377px;
   display: block;
   font-weight: bold;
   color: #ffff;
@@ -898,11 +906,11 @@
   border: 2px solid #0000;
   position: absolute;
   background-color: #00000075;
-  bottom: 380px;
+  bottom: 310px;
   display: block;
   font-weight: bold;
   color: #ffff;
-  left: 43%;
+  left: 33%;
   line-height: 1;
 }
 
