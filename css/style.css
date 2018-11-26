@@ -923,3 +923,26 @@
 .infografico-container .sobre-infografico {
   padding-top: 200px;
 }
+
+@media screen and (max-width: 991px) {
+  .infografico-container .legenda-container {
+    bottom: -110px;
+    -webkit-transform: none;
+    transform: none;
+    margin: 20px auto 0;
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .infografico-container .sobre-infografico > .row {
+    margin: 0;
+  }
+  .infografico-container .mapa-container {
+    padding-top: 10%;
+  }
+  .infografico-container .infografico-content {
+    padding-bottom: 100px;
+    position: relative;
+  }
+}

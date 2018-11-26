@@ -164,3 +164,9 @@ main .conteudo-reportagem {
 .w-80 {
   max-width: 80%;
 }
+
+@media screen and (max-width: 991px) {
+  main .conteudo-reportagem {
+    padding: 0;
+  }
+}

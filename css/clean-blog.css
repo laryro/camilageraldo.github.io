@@ -535,3 +535,18 @@ header.masthead .intro.container {
 .legenda-container .legendas .legenda-roxa .fa {
   color: #7E2DF6;
 }
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    white-space: normal;
+  }
+  header.masthead .site-heading {
+    padding: 200px 0 100px;
+  }
+  header.masthead .intro {
+    margin-top: 0;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #08415C;
+  }
+}

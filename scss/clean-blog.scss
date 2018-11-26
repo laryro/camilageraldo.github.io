@@ -127,3 +127,28 @@ header.masthead {
         }
     }
 }
+
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        white-space: normal;
+    }
+
+    header{
+        &.masthead {
+            .site-heading {
+                padding: 200px 0 100px;
+            }
+            .intro{
+                margin-top: 0;
+            }
+        }
+    }
+    .navbar-dark {
+        .navbar-nav {
+            .nav-link {
+                color: $blue_tcc;
+            }
+        }
+    }
+}

@@ -902,4 +902,37 @@
   .sobre-infografico {
     padding-top: 200px;
   }
+
+  @media screen and (max-width: 991px) {
+    .legenda-container {
+      bottom: -110px;
+      transform: none;
+      margin: 20px auto 0;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .sobre-infografico {
+      > .row {
+        margin: 0;
+      }
+    }
+
+    .mapa-container {
+      padding-top: 10%;
+    }
+    .infografico-content {
+      padding-bottom: 100px;
+      position: relative;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+  }
+
+  @media screen and (max-width: 767px) {
+
+  }
 }
