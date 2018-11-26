@@ -945,4 +945,10 @@
     padding-bottom: 100px;
     position: relative;
   }
+  .infografico-container .box-buttons {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 10px;
+  }
 }
