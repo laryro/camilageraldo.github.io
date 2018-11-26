@@ -926,7 +926,7 @@
 
 @media screen and (max-width: 991px) {
   .infografico-container .legenda-container {
-    bottom: -110px;
+    top: 180%;
     -webkit-transform: none;
     transform: none;
     margin: 20px auto 0;
@@ -934,6 +934,7 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    height: 100px;
   }
   .infografico-container .sobre-infografico > .row {
     margin: 0;
@@ -942,7 +943,6 @@
     padding-top: 10%;
   }
   .infografico-container .infografico-content {
-    padding-bottom: 100px;
     position: relative;
   }
   .infografico-container .box-buttons {
@@ -950,5 +950,21 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 10px;
+  }
+  .infografico-container .box-content,
+  .infografico-container .box-content2,
+  .infografico-container .box-content3,
+  .infografico-container .box-content4 {
+    position: relative;
+    margin-top: 20px;
+    top: auto;
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .infografico-container .box-content {
+    margin-bottom: 200px;
   }
 }
