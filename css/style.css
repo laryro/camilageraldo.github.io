@@ -924,7 +924,7 @@
   padding-top: 200px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .infografico-container .legenda-container {
     top: 100%;
     -webkit-transform: none;
@@ -943,8 +943,11 @@
     padding-top: 0;
     height: 100%;
   }
-  .infografico-container .mapa-container > div {
+  .infografico-container .mapa-container .mapa-buttons-container {
     position: relative;
+  }
+  .infografico-container .mapa-container .mapa-buttons-container .row {
+    margin: 0;
   }
   .infografico-container .infografico-content {
     position: relative;
@@ -969,7 +972,7 @@
     margin: 50px auto 0;
   }
   .infografico-container .box-content {
-    margin-top: 25px;
+    margin-top: 140px;
     margin-bottom: 100px;
   }
   .infografico-container button.link {
@@ -1008,15 +1011,16 @@
   }
   .infografico-container .etecanas {
     top: 10%;
-    left: 24%;
+    left: 35%;
   }
   .infografico-container .etejurere {
-    left: 15%;
+    left: 20%;
     top: 17%;
   }
   .infografico-container .eteconceicao {
-    top: 26%;
-    right: 4%;
+    top: 28%;
+    right: auto;
+    left: 63%;
   }
   .infografico-container .etesacogrande {
     top: 32%;
@@ -1044,5 +1048,12 @@
   .infografico-container .etebase {
     left: 5%;
     top: 64%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 991px) {
+  .infografico-container button.link {
+    font-size: 14px;
+    font-weight: normal;
   }
 }
