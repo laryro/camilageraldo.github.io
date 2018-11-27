@@ -15,7 +15,7 @@
   max-height: 100%;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Times New Roman', serif;
 }
 
 .infografico-container nav {
@@ -926,7 +926,7 @@
 
 @media screen and (max-width: 991px) {
   .infografico-container .legenda-container {
-    top: 180%;
+    top: 100%;
     -webkit-transform: none;
     transform: none;
     margin: 20px auto 0;
@@ -940,7 +940,11 @@
     margin: 0;
   }
   .infografico-container .mapa-container {
-    padding-top: 10%;
+    padding-top: 0;
+    height: 100%;
+  }
+  .infografico-container .mapa-container > div {
+    position: relative;
   }
   .infografico-container .infografico-content {
     position: relative;
@@ -965,6 +969,80 @@
     margin: 50px auto 0;
   }
   .infografico-container .box-content {
-    margin-bottom: 200px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+  .infografico-container button.link {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .infografico-container .canas {
+    top: 10%;
+  }
+  .infografico-container .jurere {
+    left: 35%;
+    top: 15%;
+  }
+  .infografico-container .stoantonio {
+    left: 33%;
+    top: 28%;
+  }
+  .infografico-container .costa {
+    top: 35%;
+  }
+  .infografico-container .montecristo {
+    top: 40%;
+  }
+  .infografico-container .centro {
+    top: 49%;
+  }
+  .infografico-container .continente {
+    left: 18%;
+    top: 50%;
+  }
+  .infografico-container .campeche {
+    top: 70%;
+  }
+  .infografico-container .etebrava {
+    top: 4%;
+  }
+  .infografico-container .etecanas {
+    top: 10%;
+    left: 24%;
+  }
+  .infografico-container .etejurere {
+    left: 15%;
+    top: 17%;
+  }
+  .infografico-container .eteconceicao {
+    top: 26%;
+    right: 4%;
+  }
+  .infografico-container .etesacogrande {
+    top: 32%;
+  }
+  .infografico-container .eteparq {
+    top: 39%;
+  }
+  .infografico-container .etepotecas {
+    top: 50%;
+    left: 2%;
+  }
+  .infografico-container .eteinsular {
+    top: 45%;
+    left: 32%;
+  }
+  .infografico-container .etebarra {
+    top: 53%;
+    left: auto;
+    right: 3%;
+  }
+  .infografico-container .etevilauniao {
+    right: 22%;
+    top: 59%;
+  }
+  .infografico-container .etebase {
+    left: 5%;
+    top: 64%;
   }
 }

@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "mixins.scss";
+
 .infografico-container {
   position: relative;
 
@@ -7,7 +10,7 @@
     max-height: 100%;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Raleway', sans-serif;
+    @include sans-serif-font();
   }
 
   nav {
@@ -905,7 +908,7 @@
 
   @media screen and (max-width: 991px) {
     .legenda-container {
-      top: 180%;
+      top: 100%;
       transform: none;
       margin: 20px auto 0;
       right: auto;
@@ -921,7 +924,12 @@
     }
 
     .mapa-container {
-      padding-top: 10%;
+      padding-top: 0;
+      height: 100%;
+
+      >div {
+        position: relative;
+      }
     }
     .infografico-content {
       position: relative;
@@ -947,7 +955,98 @@
     }
 
     .box-content {
-      margin-bottom: 200px;
+      margin-top: 25px;
+      margin-bottom: 100px;
+    }
+
+    button.link {
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    .canas {
+      top: 10%;
+    }
+
+    .jurere {
+      left: 35%;
+      top: 15%;
+    }
+
+    .stoantonio {
+      left: 33%;
+      top: 28%;
+    }
+
+    .costa {
+      top: 35%;
+    }
+
+    .montecristo {
+      top: 40%;
+    }
+
+    .centro {
+      top: 49%;
+    }
+
+    .continente {
+      left: 18%;
+      top: 50%;
+    }
+
+    .campeche {
+      top: 70%;
+    }
+
+    .etebrava {
+      top: 4%;
+    }
+
+    .etecanas {
+      top: 10%;
+      left: 24%;
+    }
+
+    .etejurere {
+      left: 15%;
+      top: 17%;
+    }
+    .eteconceicao {
+      top: 26%;
+      right: 4%;
+    }
+    .etesacogrande {
+      top: 32%;
+    }
+
+    .eteparq {
+      top: 39%;
+    }
+
+    .etepotecas {
+      top: 50%;
+      left: 2%;
+    }
+    .eteinsular {
+      top: 45%;
+      left: 32%;
+    }
+
+    .etebarra {
+      top: 53%;
+      left: auto;
+      right: 3%;
+    }
+
+    .etevilauniao {
+      right: 22%;
+      top: 59%;
+    }
+
+    .etebase {
+      left: 5%;
+      top: 64%;
     }
   }
 
