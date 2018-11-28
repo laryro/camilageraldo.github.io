@@ -908,9 +908,9 @@
 
   @media screen and (max-width: 767px) {
     .legenda-container {
-      top: 100%;
+      top: 88%;
       transform: none;
-      margin: 20px auto 0;
+      margin: 0 auto;
       right: auto;
       left: 50%;
       transform: translateX(-50%);
@@ -958,8 +958,7 @@
     }
 
     .box-content {
-      margin-top: 140px;
-      margin-bottom: 100px;
+      margin-bottom: 140px;
     }
 
     button.link {
@@ -1107,6 +1106,47 @@
     .lagoa3 {
       top: 48%;
       left: 40%;
+    }
+
+    .canas4 {
+      top: 5%;
+      left: 38%;
+    }
+
+    .jurere4  {
+      top: 15%;
+      left: 32%;
+    }
+
+    .sacogrande4 {
+      top: 28%;
+      left: 25%;
+    }
+
+    .ita4 {
+      top: 43%;
+      left: 53%;
+    }
+
+    .beiramar4 {
+      top: 42%;
+      left: 20%;
+    }
+
+    .continente4 {
+      top: 49%;
+      left: 5%;
+    }
+
+    .pico4 {
+      top: 54%;
+      left: 37%;
+    }
+
+    .campeche3 {
+      bottom: auto;
+      top: 70%;
+      left: 23%;
     }
   }
 

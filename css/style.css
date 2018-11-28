@@ -926,10 +926,10 @@
 
 @media screen and (max-width: 767px) {
   .infografico-container .legenda-container {
-    top: 100%;
+    top: 88%;
     -webkit-transform: none;
     transform: none;
-    margin: 20px auto 0;
+    margin: 0 auto;
     right: auto;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -972,8 +972,7 @@
     margin: 50px auto 0;
   }
   .infografico-container .box-content {
-    margin-top: 140px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
   }
   .infografico-container button.link {
     font-size: 12px;
@@ -1093,6 +1092,39 @@
   .infografico-container .lagoa3 {
     top: 48%;
     left: 40%;
+  }
+  .infografico-container .canas4 {
+    top: 5%;
+    left: 38%;
+  }
+  .infografico-container .jurere4 {
+    top: 15%;
+    left: 32%;
+  }
+  .infografico-container .sacogrande4 {
+    top: 28%;
+    left: 25%;
+  }
+  .infografico-container .ita4 {
+    top: 43%;
+    left: 53%;
+  }
+  .infografico-container .beiramar4 {
+    top: 42%;
+    left: 20%;
+  }
+  .infografico-container .continente4 {
+    top: 49%;
+    left: 5%;
+  }
+  .infografico-container .pico4 {
+    top: 54%;
+    left: 37%;
+  }
+  .infografico-container .campeche3 {
+    bottom: auto;
+    top: 70%;
+    left: 23%;
   }
 }
 
