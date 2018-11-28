@@ -147,8 +147,38 @@ header.masthead {
     .navbar-dark {
         .navbar-nav {
             .nav-link {
-                color: $blue_tcc;
+                &,
+                &:hover,
+                &:active {
+                    color: $blue_tcc;
+                }
+
             }
+        }
+    }
+
+    .has-submenu {
+        &:hover {
+            .submenu {
+                display: none;
+            }
+        }
+
+        .submenu {
+            position: relative;
+            background-color: transparent;
+            left: auto;
+            transform: none;
+            width: 100%;
+
+            a {
+                color: $blue_tcc;
+
+            }
+        }
+
+        #submenu:checked + .submenu {
+            display: block;
         }
     }
 }
