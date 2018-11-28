@@ -1039,15 +1039,60 @@
   .infografico-container .etebarra {
     top: 53%;
     left: auto;
-    right: 3%;
+    right: 10%;
   }
   .infografico-container .etevilauniao {
-    right: 22%;
-    top: 59%;
+    right: 28%;
+    top: 58%;
   }
   .infografico-container .etebase {
     left: 5%;
     top: 64%;
+  }
+  .infografico-container .praiabrava {
+    top: 2%;
+    left: 69%;
+    right: auto;
+  }
+  .infografico-container .pontacanas {
+    top: 3%;
+    left: 35%;
+  }
+  .infografico-container .bomjesus {
+    top: 10%;
+    left: 27%;
+  }
+  .infografico-container .ingleses3 {
+    top: 16%;
+    right: 9%;
+    left: auto;
+  }
+  .infografico-container .canas3 {
+    top: 16%;
+    left: 35%;
+  }
+  .infografico-container .jurere3 {
+    top: 22%;
+    left: 30%;
+  }
+  .infografico-container .mendes3 {
+    bottom: auto;
+    top: 50%;
+    left: 11%;
+  }
+  .infografico-container .estreito3 {
+    top: 40%;
+    left: 3%;
+  }
+  .infografico-container .costa3 {
+    top: 33%;
+  }
+  .infografico-container .barra3 {
+    top: 40%;
+  }
+  .infografico-container .lagoa3 {
+    top: 48%;
+    left: 40%;
   }
 }
 
